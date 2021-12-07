@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 namespace webProjects.Data.Models {
     public class Category {
         public int id { set; get; }
-        public int categoryName { set; get; }
-        public int desc { set; get; }
-        public int id { set; get; }
+        public string categoryName { set; get; }
+        public string desc { set; get; }
+        public List<Car> cars { set; get; }
     }
 }
