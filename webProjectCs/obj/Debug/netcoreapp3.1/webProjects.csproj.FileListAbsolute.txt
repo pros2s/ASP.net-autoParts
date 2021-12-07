@@ -42,3 +42,4 @@ C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\we
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.dll
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.pdb
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.genruntimeconfig.cache
+C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.csproj.AssemblyReference.cache
