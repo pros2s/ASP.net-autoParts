@@ -28,13 +28,6 @@ C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\sc
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.TagHelpers.input.cache
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.TagHelpers.output.cache
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.RazorCoreGenerate.cache
-C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
-C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.RazorTargetAssemblyInfo.cache
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.RazorTargetAssemblyInfo.cs
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.Views.pdb
@@ -43,3 +36,7 @@ C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\we
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.pdb
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.genruntimeconfig.cache
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\webProjects.csproj.AssemblyReference.cache
+C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\Cars\List.cshtml.g.cs
+C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs

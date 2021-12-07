@@ -7,11 +7,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using webProjects.Data.Interfaces;
+using webProjects.Data.Mocks;
 
 namespace webProjects {
     public class Startup {
         public void ConfigureServices(IServiceCollection services) {
             services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddTransient<IAllCars, MockCars>();
+            services.AddTransient<ICarsCategory, MockCategory>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {

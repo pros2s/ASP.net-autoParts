@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using webProjects.Data.Models;
 
 namespace webProjects.Data.Interfaces {
-    interface ICarsCategory {
+    public interface ICarsCategory {
         IEnumerable<Category> AllCategories { get; }
     }
 }
