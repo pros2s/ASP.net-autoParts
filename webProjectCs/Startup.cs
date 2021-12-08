@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using webProjects.Data;
 using webProjects.Data.Interfaces;
 using webProjects.Data.Mocks;
+using webProjects.Data.Repository;
 
 namespace webProjects {
     public class Startup {
@@ -25,8 +26,8 @@ namespace webProjects {
             //For UseSqlServer we need Microsoft.EntityFrameworkCore.SqlServer
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
             services.AddMvc(options => options.EnableEndpointRouting = false);
-            services.AddTransient<IAllCars, MockCars>();
-            services.AddTransient<ICarsCategory, MockCategory>();
+            services.AddTransient<IAllCars, CarRepository>();
+            services.AddTransient<ICarsCategory, CategoryRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {
