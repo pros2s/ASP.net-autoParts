@@ -27,7 +27,7 @@ namespace webProjects.Data.Models {
             };
         }
 
-        public void AddToCart(Car car, int amout) {
+        public void AddToCart(Car car) {
             appDBContent.ShopCartItem.Add(new ShopCartItem {
                 ShopCartId = ShopCartId,
                 car = car,

@@ -94,3 +94,4 @@ C:\Users\caiii\source\repos\webProjectCs\webProjectCs\bin\Debug\netcoreapp3.1\ru
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AllCars.cshtml.g.cs
+C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\ShopCart\Index.cshtml.g.cs

@@ -13,6 +13,7 @@ using webProjects.Data;
 using webProjects.Data.Interfaces;
 using webProjects.Data.Mocks;
 using webProjects.Data.Repository;
+using webProjects.Data.Models;
 
 namespace webProjects {
     public class Startup {
@@ -25,15 +26,22 @@ namespace webProjects {
         public void ConfigureServices(IServiceCollection services) {
             //For UseSqlServer we need Microsoft.EntityFrameworkCore.SqlServer
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
-            services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddTransient<IAllCars, CarRepository>();
             services.AddTransient<ICarsCategory, CategoryRepository>();
+
+            //For cart
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(sp => ShopCart.GetCart(sp));
+
+            services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddSession();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseMvcWithDefaultRoute();
 
             using (var scope = app.ApplicationServices.CreateScope()) {
