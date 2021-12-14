@@ -12,12 +12,12 @@ namespace webProjects.Data.Mocks {
             get {
                 return new List<Car> {
                     new Car {
-                        name = "Tesla",
+                        name = "Блок управления реле",
                         shortDesc = "",
-                        img = "",
-                        price = 45000,
-                        available = true,
-                        isFavorite = true,
+                        img = "../../wwwroot/img/1.jpg",
+                        durability = "350 000км",
+                        manufacturer = "Mazda",
+                        price = 7500,
                         Category = _categoryCars.AllCategories.First()
                     }
                 };

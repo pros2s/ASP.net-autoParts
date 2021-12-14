@@ -26,11 +26,11 @@ namespace webProjects.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<bool>("available")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("categoryID")
+                    b.Property<int?>("Categoryid")
                         .HasColumnType("int");
+
+                    b.Property<string>("durability")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("img")
                         .HasColumnType("nvarchar(max)");
@@ -39,6 +39,9 @@ namespace webProjects.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("longDesc")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("manufacturer")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("name")
@@ -52,7 +55,7 @@ namespace webProjects.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("categoryID");
+                    b.HasIndex("Categoryid");
 
                     b.ToTable("Car");
                 });
@@ -102,9 +105,7 @@ namespace webProjects.Migrations
                 {
                     b.HasOne("webProjects.Data.Models.Category", "Category")
                         .WithMany("cars")
-                        .HasForeignKey("categoryID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Categoryid");
 
                     b.Navigation("Category");
                 });

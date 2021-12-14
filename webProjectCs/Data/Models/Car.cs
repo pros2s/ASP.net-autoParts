@@ -12,8 +12,8 @@ namespace webProjects.Data.Models {
         public string img { set; get; }
         public ushort price { set; get; }
         public bool isFavorite { set; get; }
-        public bool available { set; get; }
-        public int categoryID { set; get; }
+        public string manufacturer { set; get; }
+        public string durability { set; get; }
         public virtual Category Category { set; get; }
     }
 }
