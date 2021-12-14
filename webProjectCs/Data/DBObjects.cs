@@ -12,17 +12,367 @@ namespace webProjects.Data {
 
             if (!content.Category.Any())
                 content.Category.AddRange(Categories.Select(c => c.Value));
-
             if (!content.Car.Any()) {
                 content.AddRange(
                     new Car {
                         name = "Блок управления реле",
                         shortDesc = "",
-                        img = "../wwwroot/img/1.jpg",
+                        img = "/img/1.jpg",
                         durability = "350 000км",
                         manufacturer = "Mazda",
                         price = 7500,
                         Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Катушка зажигания",
+                        shortDesc = "",
+                        img = "/img/2.jpg",
+                        durability = "200 000км",
+                        manufacturer = "Mazda",
+                        price = 17289,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Свечи зажигания",
+                        shortDesc = "",
+                        img = "/img/3.jpg",
+                        durability = "60 000км",
+                        manufacturer = "Mazda",
+                        price = 2000,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Провода высоковольтные ",
+                        shortDesc = "",
+                        img = "/img/4.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 5000,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Подушка двигателя",
+                        shortDesc = "",
+                        img = "/img/5.jpg",
+                        durability = "350 000км",
+                        manufacturer = "Mazda",
+                        price = 4000,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Ролик натяжителя",
+                        shortDesc = "",
+                        img = "/img/6.jpg",
+                        durability = "100 000км",
+                        manufacturer = "Mazda",
+                        price = 2500,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Дроссельная заслонка",
+                        shortDesc = "",
+                        img = "/img/7.jpg",
+                        durability = "350 000км",
+                        manufacturer = "Mazda",
+                        price = 54000,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Блок воздушного фильтра",
+                        shortDesc = "",
+                        img = "/img/8.jpeg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 5000,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Блок цилиндров",
+                        shortDesc = "",
+                        img = "/img/9.jpg",
+                        durability = "350 000км",
+                        manufacturer = "Mazda",
+                        price = 60000,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Ремень приводной",
+                        shortDesc = "",
+                        img = "/img/10.jpg",
+                        durability = "В зависимости от манеры езды",
+                        manufacturer = "Mazda",
+                        price = 6000,
+                        Category = Categories["Двигатель"]
+                    },
+                    new Car {
+                        name = "Рычаги",
+                        shortDesc = "",
+                        img = "/img/11.jpg",
+                        durability = "120 000км",
+                        manufacturer = "Mazda",
+                        price = 12000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Стойки стабилизатора",
+                        shortDesc = "",
+                        img = "/img/12.jpg",
+                        durability = "80 000км",
+                        manufacturer = "Mazda",
+                        price = 2000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Сайлентблок",
+                        shortDesc = "",
+                        img = "/img/13.jpg",
+                        durability = "60 000км",
+                        manufacturer = "Mazda",
+                        price = 800,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Амортизаторы",
+                        shortDesc = "",
+                        img = "/img/14.jpg",
+                        durability = "120 000км",
+                        manufacturer = "Mazda",
+                        price = 17000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Шаровая опора",
+                        shortDesc = "",
+                        img = "/img/15.jpg",
+                        durability = "60 000км",
+                        manufacturer = "Mazda",
+                        price = 4000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Ступичный подшипник",
+                        shortDesc = "",
+                        img = "/img/17.jpg",
+                        durability = "120 000 км",
+                        manufacturer = "Mazda",
+                        price = 6000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Шрус",
+                        shortDesc = "",
+                        img = "/img/18.jpg",
+                        durability = "120 000 км",
+                        manufacturer = "Mazda",
+                        price = 4000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Тормозные диски",
+                        shortDesc = "",
+                        img = "/img/19.jpg",
+                        durability = "В зависимости от манеры езды",
+                        manufacturer = "Mazda",
+                        price = 6000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Суппорта",
+                        shortDesc = "",
+                        img = "/img/20.1.jpg",
+                        durability = "В зависимости от манеры езды",
+                        manufacturer = "Mazda",
+                        price = 15000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Защита картера",
+                        shortDesc = "",
+                        img = "/img/21.jpg",
+                        durability = "В зависимости от манеры езды",
+                        manufacturer = "Mazda",
+                        price = 4000,
+                        Category = Categories["Ходовая"]
+                    },
+                    new Car {
+                        name = "Магнитола",
+                        shortDesc = "",
+                        img = "/img/22.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 12000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Подлокотник",
+                        shortDesc = "",
+                        img = "/img/23.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 4000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Ручка КПП",
+                        shortDesc = "",
+                        img = "/img/24.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 2000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Рулевое колесо",
+                        shortDesc = "",
+                        img = "/img/25.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 20000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Дверные карты",
+                        shortDesc = "",
+                        img = "/img/26.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 10000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Панель приборов",
+                        shortDesc = "",
+                        img = "/img/27.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 40000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Подстаканники",
+                        shortDesc = "",
+                        img = "/img/28.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 2000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Бардачок",
+                        shortDesc = "",
+                        img = "/img/29.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 4000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Зеркало заднего вида",
+                        shortDesc = "",
+                        img = "/img/30.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 6000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Устройство беспроводной зарядки ",
+                        shortDesc = "",
+                        img = "/img/31.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 15000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Капот",
+                        shortDesc = "",
+                        img = "/img/32.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 30000,
+                        Category = Categories["Кузов"]
+                    },
+                    new Car {
+                        name = "Двери",
+                        shortDesc = "",
+                        img = "/img/33.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 28000,
+                        Category = Categories["Кузов"]
+                    },
+                    new Car {
+                        name = "Крышка багажника",
+                        shortDesc = "",
+                        img = "/img/34.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 40000,
+                        Category = Categories["Кузов"]
+                    },
+                    new Car {
+                        name = "накладки на пороги",
+                        shortDesc = "",
+                        img = "/img/35.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "AKS",
+                        price = 2000,
+                        Category = Categories["Кузов"]
+                    },
+                    new Car {
+                        name = "Спойлер",
+                        shortDesc = "",
+                        img = "/img/36.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "AKS",
+                        price = 4000,
+                        Category = Categories["Салон"]
+                    },
+                    new Car {
+                        name = "Бампер передний",
+                        shortDesc = "",
+                        img = "/img/37.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 20000,
+                        Category = Categories["Кузов"]
+                    },
+                    new Car {
+                        name = "Бампер задний",
+                        shortDesc = "",
+                        img = "/img/38.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 12000,
+                        Category = Categories["Кузов"]
+                    },
+                    new Car {
+                        name = "Лобовое стекло",
+                        shortDesc = "",
+                        img = "/img/39.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 15000,
+                        Category = Categories["Кузов"]
+                    },
+                    new Car {
+                        name = "Зеркала заднего вида",
+                        shortDesc = "",
+                        img = "/img/40.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 7000,
+                        Category = Categories["Кузов"]
+                    },
+                    new Car {
+                        name = "Заднее стекло",
+                        shortDesc = "",
+                        img = "/img/41.jpg",
+                        durability = "нет заявленного срока",
+                        manufacturer = "Mazda",
+                        price = 12000,
+                        Category = Categories["Кузов"]
                     }
                 );
             }
@@ -50,10 +400,6 @@ namespace webProjects.Data {
                         new Category {
                             categoryName = "Кузов",
                             desc = "Автомобиль состоит из множества элементов, которые слаженно работают вместе. Основными из них принято считать двигатель, ходовую часть и трансмиссию. Однако, все они закреплены на несущей системе, которая и обеспечивает их взаимодействие. Несущая система может быть представлена разными вариантами, но наиболее популярным является кузов автомобиля. Это важный конструктивный элемент, который обеспечивает крепление составных частей транспортного средства, размещение пассажиров и грузов в салоне, а также воспринимает все нагрузки во время движения."
-                        },
-                        new Category {
-                            categoryName = "Масла, фильтры Автохимия",
-                            desc = "Масляный фильтр в двигателе выполняет одну из главных ролей. Смазывающая жидкость, проходящая сквозь него, оставляет на мембране крупные фракции грязи, нагара и стальной стружки, которые негативно сказывались бы на деталях силового агрегата, случись им беспрепятственно курсировать по нему."
                         }
                     };
 

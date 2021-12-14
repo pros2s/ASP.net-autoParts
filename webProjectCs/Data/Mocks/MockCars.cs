@@ -14,7 +14,7 @@ namespace webProjects.Data.Mocks {
                     new Car {
                         name = "Блок управления реле",
                         shortDesc = "",
-                        img = "../../wwwroot/img/1.jpg",
+                        img = "/img/1.jpg",
                         durability = "350 000км",
                         manufacturer = "Mazda",
                         price = 7500,

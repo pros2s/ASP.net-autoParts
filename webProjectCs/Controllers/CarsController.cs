@@ -17,7 +17,7 @@ namespace webProjects.Controllers {
         }
 
         public ViewResult List() {
-            ViewBag.title = "Page with autos";
+            ViewBag.title = "AutoParts";
             CarsListViewModel obj = new CarsListViewModel();
 
             obj.allCars = _allCars.Cars;
