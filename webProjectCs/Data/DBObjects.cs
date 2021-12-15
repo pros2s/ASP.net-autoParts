@@ -20,6 +20,7 @@ namespace webProjects.Data {
                         img = "/img/1.jpg",
                         durability = "350 000км",
                         manufacturer = "Mazda",
+                        isFavorite = true,
                         price = 7500,
                         Category = Categories["Двигатель"]
                     },
@@ -37,6 +38,7 @@ namespace webProjects.Data {
                         shortDesc = "",
                         img = "/img/3.jpg",
                         durability = "60 000км",
+                        isFavorite = true,
                         manufacturer = "Mazda",
                         price = 2000,
                         Category = Categories["Двигатель"]
@@ -137,6 +139,7 @@ namespace webProjects.Data {
                         img = "/img/14.jpg",
                         durability = "120 000км",
                         manufacturer = "Mazda",
+                        isFavorite = true,
                         price = 17000,
                         Category = Categories["Ходовая"]
                     },
@@ -154,6 +157,7 @@ namespace webProjects.Data {
                         shortDesc = "",
                         img = "/img/17.jpg",
                         durability = "120 000 км",
+                        isFavorite = true,
                         manufacturer = "Mazda",
                         price = 6000,
                         Category = Categories["Ходовая"]
@@ -234,6 +238,7 @@ namespace webProjects.Data {
                         name = "Дверные карты",
                         shortDesc = "",
                         img = "/img/26.jpg",
+                        isFavorite = true,
                         durability = "нет заявленного срока",
                         manufacturer = "Mazda",
                         price = 10000,
@@ -242,6 +247,7 @@ namespace webProjects.Data {
                     new Car {
                         name = "Панель приборов",
                         shortDesc = "",
+                        isFavorite = true,
                         img = "/img/27.jpg",
                         durability = "нет заявленного срока",
                         manufacturer = "Mazda",
@@ -299,6 +305,7 @@ namespace webProjects.Data {
                         img = "/img/33.jpg",
                         durability = "нет заявленного срока",
                         manufacturer = "Mazda",
+                        isFavorite = true,
                         price = 28000,
                         Category = Categories["Кузов"]
                     },
@@ -307,6 +314,7 @@ namespace webProjects.Data {
                         shortDesc = "",
                         img = "/img/34.jpg",
                         durability = "нет заявленного срока",
+                        isFavorite = true,
                         manufacturer = "Mazda",
                         price = 40000,
                         Category = Categories["Кузов"]
@@ -351,6 +359,7 @@ namespace webProjects.Data {
                         name = "Лобовое стекло",
                         shortDesc = "",
                         img = "/img/39.jpg",
+                        isFavorite = true,
                         durability = "нет заявленного срока",
                         manufacturer = "Mazda",
                         price = 15000,
@@ -369,6 +378,7 @@ namespace webProjects.Data {
                         name = "Заднее стекло",
                         shortDesc = "",
                         img = "/img/41.jpg",
+                        isFavorite = true,
                         durability = "нет заявленного срока",
                         manufacturer = "Mazda",
                         price = 12000,
