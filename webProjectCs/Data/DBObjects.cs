@@ -335,7 +335,7 @@ namespace webProjects.Data {
                         durability = "нет заявленного срока",
                         manufacturer = "AKS",
                         price = 4000,
-                        Category = Categories["Салон"]
+                        Category = Categories["Кузов"]
                     },
                     new Car {
                         name = "Бампер передний",
