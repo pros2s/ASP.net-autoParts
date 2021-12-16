@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -7,11 +6,35 @@
     <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="~/css/Style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <div>
-        @RenderBody()
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a class="nav__link" href="/Cars/List">Главная</a>
+                <a class="nav__link" href="/">Избранное</a>
+                <a class="nav__link" href="/Cars/List/engine">Двигатель</a>
+                <a class="nav__link" href="/Cars/List/chassis">Ходовая</a>
+                <a class="nav__link" href="/Cars/List/Interior">Салон</a>
+                <a class="nav__link" href="/Cars/List/body">Кузов</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div>
+            @RenderBody()
+        </div>
     </div>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__autors">
+                <p>Авторы: <span>Подоплелов Александр</span> и <span>Мухамедьянов Марат</span></p>
+                <p>Группа: <span>09-033</span></p>
+            </div>
+        </div>
+    </footer>
     <script src="~/js/bootstrap.min.js"></script>
 </body>
 </html>

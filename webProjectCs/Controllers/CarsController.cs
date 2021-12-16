@@ -22,7 +22,7 @@ namespace webProjects.Controllers {
         public ViewResult List(string category) {
             string _category = category;
             IEnumerable<Car> cars = null;
-            string currCategory = "";
+            string currCategory = "Весь каталог";
 
             if (string.IsNullOrEmpty(category)) {
                 cars = _allCars.Cars.OrderBy(i => i.id);
@@ -30,19 +30,19 @@ namespace webProjects.Controllers {
             else {
                 if (string.Equals("engine", category, StringComparison.OrdinalIgnoreCase)) {
                     cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Двигатель")).OrderBy(i => i.id);
-                    currCategory = "Engine parts";
+                    currCategory = "Двигатель";
                 }
                 else if (string.Equals("chassis", category, StringComparison.OrdinalIgnoreCase)) {
                     cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Ходовая")).OrderBy(i => i.id);
-                    currCategory = "Car chassis parts";
+                    currCategory = "Ходовая";
                 }
                 else if (string.Equals("Interior", category, StringComparison.OrdinalIgnoreCase)) {
                     cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Салон")).OrderBy(i => i.id);
-                    currCategory = "Сar interior parts";
+                    currCategory = "Салон";
                 }
                 else if (string.Equals("body", category, StringComparison.OrdinalIgnoreCase)) {                    
                   cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Кузов")).OrderBy(i => i.id);
-                    currCategory = "Car body parts";
+                    currCategory = "Кузов";
                 }
             }
 
