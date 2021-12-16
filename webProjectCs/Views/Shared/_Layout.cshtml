@@ -10,19 +10,25 @@
 <body>
     <header class="header">
         <div class="container">
+
             <nav class="nav">
-                <a class="nav__link" href="/Cars/List">Главная</a>
-                <a class="nav__link" href="/">Избранное</a>
-                <a class="nav__link" href="/Cars/List/engine">Двигатель</a>
-                <a class="nav__link" href="/Cars/List/chassis">Ходовая</a>
-                <a class="nav__link" href="/Cars/List/Interior">Салон</a>
-                <a class="nav__link" href="/Cars/List/body">Кузов</a>
+                <div>
+                    <a class="nav__link" href="/Cars/List">Главная</a>
+                    <a class="nav__link" href="/">Избранное</a>
+                    <a class="nav__link" href="/Cars/List/engine">Двигатель</a>
+                    <a class="nav__link" href="/Cars/List/chassis">Ходовая</a>
+                    <a class="nav__link" href="/Cars/List/Interior">Салон</a>
+                    <a class="nav__link" href="/Cars/List/body">Кузов</a>
+                </div>
+
+                <a class="nav__link" href="/ShopCart">Корзина</a>
             </nav>
+
         </div>
     </header>
 
     <div class="container">
-        <div>
+        <div class="main">
             @RenderBody()
         </div>
     </div>

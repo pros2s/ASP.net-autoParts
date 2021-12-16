@@ -96,3 +96,4 @@ C:\Users\caiii\source\repos\webProjectCs\webProjectCs\bin\Debug\netcoreapp3.1\ru
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AllCars.cshtml.g.cs
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\ShopCart\Index.cshtml.g.cs
 C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\caiii\source\repos\webProjectCs\webProjectCs\obj\Debug\netcoreapp3.1\Razor\Views\Order\checkout.cshtml.g.cs

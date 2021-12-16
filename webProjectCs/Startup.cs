@@ -28,6 +28,7 @@ namespace webProjects {
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
             services.AddTransient<IAllCars, CarRepository>();
             services.AddTransient<ICarsCategory, CategoryRepository>();
+            services.AddTransient<IAllOrders, OrdersRepository>();
 
             //For cart
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
